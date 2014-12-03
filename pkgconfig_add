@@ -1,0 +1,11 @@
+#
+# This file contains extra pkgconfig build requirements that don't get picked up but are 
+# desirable. One name per line, no whitespace.
+#
+libxfce4util-1.0
+ice
+sm
+x11
+libxfce4ui-1
+libwnck-1.0
+
