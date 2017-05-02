@@ -4,7 +4,7 @@
 #
 Name     : xfce4-session
 Version  : 4.13.0
-Release  : 11
+Release  : 12
 URL      : http://archive.xfce.org/src/xfce/xfce4-session/4.13/xfce4-session-4.13.0.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-session/4.13/xfce4-session-4.13.0.tar.bz2
 Summary  : Xfce 4 session manager
