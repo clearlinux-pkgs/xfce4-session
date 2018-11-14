@@ -4,21 +4,22 @@
 #
 Name     : xfce4-session
 Version  : 4.13.1
-Release  : 15
+Release  : 16
 URL      : http://archive.xfce.org/src/xfce/xfce4-session/4.13/xfce4-session-4.13.1.tar.bz2
 Source0  : http://archive.xfce.org/src/xfce/xfce4-session/4.13/xfce4-session-4.13.1.tar.bz2
 Summary  : Xfce 4 session manager
 Group    : Development/Tools
 License  : GPL-2.0
-Requires: xfce4-session-bin
-Requires: xfce4-session-lib
-Requires: xfce4-session-data
-Requires: xfce4-session-license
-Requires: xfce4-session-locales
-Requires: xfce4-session-man
+Requires: xfce4-session-bin = %{version}-%{release}
+Requires: xfce4-session-data = %{version}-%{release}
+Requires: xfce4-session-lib = %{version}-%{release}
+Requires: xfce4-session-license = %{version}-%{release}
+Requires: xfce4-session-locales = %{version}-%{release}
+Requires: xfce4-session-man = %{version}-%{release}
 BuildRequires : gtk3-dev
 BuildRequires : iceauth-bin
 BuildRequires : intltool
+BuildRequires : pkgconfig(dbus-glib-1)
 BuildRequires : pkgconfig(gio-2.0)
 BuildRequires : pkgconfig(gmodule-2.0)
 BuildRequires : pkgconfig(gtk+-3.0)
@@ -49,9 +50,9 @@ $HELPER_PATH_PREFIX is the directory passed to configure with the
 %package bin
 Summary: bin components for the xfce4-session package.
 Group: Binaries
-Requires: xfce4-session-data
-Requires: xfce4-session-license
-Requires: xfce4-session-man
+Requires: xfce4-session-data = %{version}-%{release}
+Requires: xfce4-session-license = %{version}-%{release}
+Requires: xfce4-session-man = %{version}-%{release}
 
 %description bin
 bin components for the xfce4-session package.
@@ -68,10 +69,10 @@ data components for the xfce4-session package.
 %package dev
 Summary: dev components for the xfce4-session package.
 Group: Development
-Requires: xfce4-session-lib
-Requires: xfce4-session-bin
-Requires: xfce4-session-data
-Provides: xfce4-session-devel
+Requires: xfce4-session-lib = %{version}-%{release}
+Requires: xfce4-session-bin = %{version}-%{release}
+Requires: xfce4-session-data = %{version}-%{release}
+Provides: xfce4-session-devel = %{version}-%{release}
 
 %description dev
 dev components for the xfce4-session package.
@@ -80,8 +81,8 @@ dev components for the xfce4-session package.
 %package lib
 Summary: lib components for the xfce4-session package.
 Group: Libraries
-Requires: xfce4-session-data
-Requires: xfce4-session-license
+Requires: xfce4-session-data = %{version}-%{release}
+Requires: xfce4-session-license = %{version}-%{release}
 
 %description lib
 lib components for the xfce4-session package.
@@ -120,7 +121,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C
-export SOURCE_DATE_EPOCH=1533586172
+export SOURCE_DATE_EPOCH=1542225336
 %configure --disable-static
 make  %{?_smp_mflags}
 
@@ -132,10 +133,10 @@ export no_proxy=localhost,127.0.0.1,0.0.0.0
 make VERBOSE=1 V=1 %{?_smp_mflags} check
 
 %install
-export SOURCE_DATE_EPOCH=1533586172
+export SOURCE_DATE_EPOCH=1542225336
 rm -rf %{buildroot}
-mkdir -p %{buildroot}/usr/share/doc/xfce4-session
-cp COPYING %{buildroot}/usr/share/doc/xfce4-session/COPYING
+mkdir -p %{buildroot}/usr/share/package-licenses/xfce4-session
+cp COPYING %{buildroot}/usr/share/package-licenses/xfce4-session/COPYING
 %make_install
 %find_lang xfce4-session
 ## install_append content
@@ -200,11 +201,11 @@ mv %{buildroot}%{_sysconfdir}/xdg %{buildroot}%{_datadir}/.
 /usr/lib64/xfce4/session/splash-engines/libsimple.so
 
 %files license
-%defattr(-,root,root,-)
-/usr/share/doc/xfce4-session/COPYING
+%defattr(0644,root,root,0755)
+/usr/share/package-licenses/xfce4-session/COPYING
 
 %files man
-%defattr(-,root,root,-)
+%defattr(0644,root,root,0755)
 /usr/share/man/man1/xfce4-session-logout.1
 /usr/share/man/man1/xfce4-session.1
 
