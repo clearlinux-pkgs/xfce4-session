@@ -1,2 +1,1 @@
 Configure miss: optional package polkit-gobject-1 >= 0.102
-Configure miss: whether linux/ioprio.h exists and actually works
