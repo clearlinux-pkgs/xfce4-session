@@ -1,3 +1,356 @@
+commit 7e00dcf456e2c6bc05ab51e662e8c5cc0625d181
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Thu Jun 27 01:39:10 2019 +0200
+
+    Reset font-size of logout dialog to default (Bug #15505)
+    
+    The keycap class sets a smaller font by default in Adwaita.
+
+commit 1ca6ba963450ce1193aa9c164c84b25a557109eb
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Jun 26 12:31:42 2019 +0200
+
+    I18n: Update translation ie (70%).
+    
+    114 translated messages, 48 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 46279a614e58c9d4f89eef4f0e60735e799462ed
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Mon Jun 24 11:51:46 2019 +0200
+
+    Report optional dependency on polkit (Bug #12761)
+
+commit 7a7dd5c60d016b398b3ffd011cb77450e3ba41a6
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Wed Jun 19 17:00:12 2019 +0200
+
+    Read data from correct group when editing autostart entry (Bug #10423)
+
+commit 811b169c69016bd60b4a0652c94e966cf3000ee8
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sat Jun 22 00:41:13 2019 +0200
+
+    Improve layout of autostart add/edit dialogs
+
+commit 73e1213825cc882c932aafb016f8a13f97c17d34
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sat Jun 22 00:02:08 2019 +0200
+
+    Improve column layout of autostart tab (Bug #15448)
+    
+    Moving the trigger column to the right makes it more consistent with the
+    "Current Session" column layout.
+
+commit 50cc4a4752cb9612b66d5594a4a541d7bfaa3fba
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jun 20 00:31:56 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0f1eeb6b2d2b662ac09437d0d8460cb3567c40a9
+Author: Elishai Eliyahu <e1907@mm.st>
+Date:   Tue Jun 18 18:31:25 2019 +0200
+
+    I18n: Update translation he (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 5f7d120c9646beeb0bcfad2b306f8f3ce81752ad
+Author: Theo Linkspfeifer <lastonestanding@tutanota.com>
+Date:   Sun Jun 16 23:59:07 2019 +0200
+
+    settings: Fix crash when terminating programs (Bug #15489)
+
+commit a81bdec069fd6184eab3818b54bfd646fa3f08be
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jun 14 00:31:16 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0c6fe37fc9326d8255f7304ade32eec3fdd3ff49
+Author: Real School <translator_students@realschool.am>
+Date:   Thu Jun 13 12:31:40 2019 +0200
+
+    I18n: Update translation hy_AM (93%).
+    
+    152 translated messages, 10 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c76fea570be739180b1d3b50839e56e5369a8eca
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jun 12 18:32:12 2019 +0200
+
+    I18n: Update translation hy_AM (93%).
+    
+    151 translated messages, 11 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 06e0968dde332fec0d0b104d3103f7d61a9bb500
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jun 12 12:30:41 2019 +0200
+
+    I18n: Add new translation hy_AM (77%).
+    
+    126 translated messages, 36 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 9bf9049fbbcb57b3d42e220fa0d190eff7c10b64
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Tue Jun 11 12:31:01 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3047b6cd3aa34e050bac779508ff2fa9321dcb7e
+Author: Yannick Le Guen <leguen.yannick@gmail.com>
+Date:   Tue Jun 11 00:31:10 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit e9b3524e5678aa8aa65a632b367ba7722f3e3081
+Author: Zmicer Turok <nashtlumach@gmail.com>
+Date:   Sat Jun 8 12:30:54 2019 +0200
+
+    I18n: Update translation be (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 2e24d6437533228fcf9e6da424eecc383a29ef62
+Author: Anonymous <noreply@xfce.org>
+Date:   Fri Jun 7 00:30:34 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 1217bc1ac065543aad647f23f86ff6627c1ad941
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jun 6 06:31:31 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 80823d536427aff7cf5c8fdf5c6f8b9a2232259a
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu Jun 6 00:31:38 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 20a1e3c0279044feb13e10b6aa37af899d83b130
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Jun 5 18:31:43 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6fee518badf39c8a9b1e0bd4cdec125c4edbdcfd
+Author: abuyop <abuyop@gmail.com>
+Date:   Wed Jun 5 00:31:14 2019 +0200
+
+    I18n: Update translation ms (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0efa270387e9b03630d1a95e8b3094bbc269b76d
+Author: jc1 <jc1.quebecos@gmail.com>
+Date:   Sun Jun 2 18:31:24 2019 +0200
+
+    I18n: Update translation fr (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 23f14415f2563dd94d68e3ea5975501a3e488888
+Author: Michael Martins <michaelfm21@gmail.com>
+Date:   Sun Jun 2 00:30:35 2019 +0200
+
+    I18n: Update translation pt_BR (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit da6160b3785c94bef256fb6b814f5030d54ef34f
+Author: Tero Mononen <tero@mononen.eu>
+Date:   Sat Jun 1 18:31:02 2019 +0200
+
+    I18n: Update translation fi (96%).
+    
+    156 translated messages, 6 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f5be3b95c93fdf4563daada4d4809783848f538c
+Author: Anonymous <noreply@xfce.org>
+Date:   Thu May 30 00:31:11 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f1c692654b866aefb86963f0122e3c0428ead537
+Author: John Humphrys <john.humphrys@pm.me>
+Date:   Wed May 29 12:31:28 2019 +0200
+
+    I18n: Update translation en_AU (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit f753b16c9f4f5887c299408f7ecc44d8406b0886
+Author: Vinzenz Vietzke <vinz@vinzv.de>
+Date:   Wed May 29 12:31:28 2019 +0200
+
+    I18n: Update translation de (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c6890812734aec5e2e5eeb5a15f622629fae5385
+Author: Anonymous <noreply@xfce.org>
+Date:   Tue May 28 18:31:51 2019 +0200
+
+    I18n: Update translation hu (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit c7ca73ef724bf29804bb040f0f60b988a806bac6
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon May 27 00:30:35 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b5bd3a9b4dc83dee573dd04acd4e2204b6432ccc
+Author: Nuno Miguel <nunomgue@gmail.com>
+Date:   Sun May 26 18:31:35 2019 +0200
+
+    I18n: Update translation pt (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6d5c75442643e57cf7971301c5d7196dae42d85d
+Author: Anonymous <noreply@xfce.org>
+Date:   Sat May 25 00:31:29 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 51740996e46a84a64b603504e866fda3e52588c0
+Author: Serdar Sağlam <teknomobil@msn.com>
+Date:   Thu May 23 12:32:15 2019 +0200
+
+    I18n: Update translation tr (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 88a37fdd8734f9bc3c0a19a4c1f56b01bf69723d
+Author: Serdar Sağlam <teknomobil@msn.com>
+Date:   Thu May 23 06:31:20 2019 +0200
+
+    I18n: Update translation tr (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit b48769c1c6140936c63feb983c6b3da138d05510
+Author: Andreas Eitel <github-aneitel@online.de>
+Date:   Tue May 21 00:30:38 2019 +0200
+
+    I18n: Update translation de (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d948317586dcf777b52255b246afd3f458d0dd7c
+Author: Anonymous <noreply@xfce.org>
+Date:   Mon May 20 18:31:44 2019 +0200
+
+    I18n: Update translation ie (70%).
+    
+    114 translated messages, 48 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 66eef20ca69a81c66950078cb7c2c948d4d05725
+Author: Baurzhan Muftakhidinov <baurthefirst@gmail.com>
+Date:   Sun May 19 12:31:20 2019 +0200
+
+    I18n: Update translation kk (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 0b1e5933c1a9456eb4322ff5fc4b13a831cdded5
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun May 19 00:10:33 2019 +0200
+
+    Back to development
+
+commit 7d09e1449cbc566ebefdafb3b5eac8f75b8c8e60
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun May 19 00:04:29 2019 +0200
+
+    Updates for release
+
 commit 20f406b516fc945a468bd49805b29add83613524
 Author: Robert Antoni Buj Gelonch <rbuj@fedoraproject.org>
 Date:   Sat May 18 00:31:29 2019 +0200
