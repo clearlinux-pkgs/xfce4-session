@@ -1,3 +1,142 @@
+commit b8f98acec67c5012e005dacd49d16595f439923c
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Sat Jul 20 22:05:29 2019 +0200
+
+    Process Gtk events prior to starting D-Bus (Bug #15712)
+    
+    Currently, xfce4-session will start all components once it gets the
+    D-Bus session ready, delaying Gtk processing.
+    
+    Process all pending Gtk events from iniialization before starting D-Bus.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit a8f6cbede16750be20ff4bc1e1eb781105cdfb2c
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Sat Jul 20 11:47:13 2019 +0200
+
+    Revert "session: Serialize startup of xfsettings daemon"
+    
+    Bug #15712
+    
+    This reverts commit 195b423599fd1cde5204a281846318c820e11a61.
+    
+    Signed-off-by: Olivier Fourdan <fourdan@xfce.org>
+
+commit b91230d7a4817d2039d375afdf43d6bb369952c7
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Wed Jul 24 18:30:54 2019 +0200
+
+    I18n: Update translation nb (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 6ab124ddca5de7a8e3a053c5f7bebe454beb786e
+Author: Kjell Cato Heskjestad <cato@heskjestad.xyz>
+Date:   Tue Jul 23 18:31:27 2019 +0200
+
+    I18n: Update translation nb (90%).
+    
+    147 translated messages, 15 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 876b76611d0ab29b73d822c9297b07f137e01814
+Author: Juhani Numminen <juhaninumminen0@gmail.com>
+Date:   Fri Jul 19 18:30:55 2019 +0200
+
+    I18n: Update translation fi (99%).
+    
+    161 translated messages, 1 untranslated message.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 3551eb070d7db3ff023d803d85c99f5c3d21f5fb
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 12:31:56 2019 +0200
+
+    I18n: Update translation fi (98%).
+    
+    160 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit d580b90c321b84bb029700964f76c07d0ef7fccd
+Author: Jiri Grönroos <jiri.gronroos@iki.fi>
+Date:   Wed Jul 17 00:32:10 2019 +0200
+
+    I18n: Update translation fi (98%).
+    
+    160 translated messages, 2 untranslated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 195b423599fd1cde5204a281846318c820e11a61
+Author: Olivier Fourdan <fourdan@xfce.org>
+Date:   Mon Jul 8 21:55:28 2019 +0200
+
+    session: Serialize startup of xfsettings daemon
+    
+    Bug: 15485
+    
+    Avoid a possible race where xfsettings daemon would apply an XrandR
+    config while the window and compositor manager are starting, causing a
+    possible mismatch in configuration.
+
+commit d946a9c23e26b19b1afb0d1d1114180120c7018c
+Author: Yarema aka Knedlyk <yupadmin@gmail.com>
+Date:   Wed Jul 10 00:31:17 2019 +0200
+
+    I18n: Update translation uk (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit a4e499e23ade4f019f56fde944c90f1eb284219b
+Author: Olivier Duchateau <duchateau.olivier@gmail.com>
+Date:   Sun May 19 16:24:29 2019 +0200
+
+    Splash engines are not present anymore in xfce4-session
+    
+    - Rename libxfsm-4.6 to libxfsm
+    - Drop xfce4-session-2.0 pkgconfig file
+    - Fix bug #15417
+
+commit f2096dd4fef17ef9423f0fe6116309d59812f9c1
+Author: Real School <translator_students@realschool.am>
+Date:   Wed Jul 3 12:31:04 2019 +0200
+
+    I18n: Update translation hy_AM (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit ee0371c7e0f5369e25a9b472c8d642fe0256ba5e
+Author: Anonymous <noreply@xfce.org>
+Date:   Wed Jul 3 12:31:04 2019 +0200
+
+    I18n: Update translation da (100%).
+    
+    162 translated messages.
+    
+    Transifex (https://www.transifex.com/xfce/public/).
+
+commit 21fea0c33b5f5a3dac3b9b856b587efb5ffa41d5
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 30 23:04:17 2019 +0200
+
+    Back to development
+
+commit 5ffd5db2a82a0557154a82757771c34abc96408b
+Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
+Date:   Sun Jun 30 23:02:25 2019 +0200
+
+    Updates for release
+
 commit 7e00dcf456e2c6bc05ab51e662e8c5cc0625d181
 Author: Simon Steinbeiss <simon.steinbeiss@elfenbeinturm.at>
 Date:   Thu Jun 27 01:39:10 2019 +0200
