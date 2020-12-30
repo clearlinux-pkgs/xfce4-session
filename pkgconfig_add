@@ -6,7 +6,7 @@ libxfce4util-1.0
 ice
 sm
 x11
-libxfce4ui-1
+libxfce4ui-2
 libwnck-1.0
 
 dbus-glib-1
