@@ -1,8 +1,8 @@
 diff --git a/scripts/startxfce4.in b/scripts/startxfce4.in
-index d0a74a9..bbb331c 100644
+index bf3201b..305f451 100644
 --- a/scripts/startxfce4.in
 +++ b/scripts/startxfce4.in
-@@ -114,6 +114,8 @@ elif [ -f $HOME/.xfce4/xinitrc ]; then
+@@ -118,6 +118,8 @@ elif [ -f $HOME/.xfce4/xinitrc ]; then
    mkdir -p $BASEDIR
    cp $HOME/.xfce4/xinitrc $BASEDIR/
    exec $prog $BASEDIR/xinitrc $CLIENTRC $SERVERRC
@@ -12,10 +12,10 @@ index d0a74a9..bbb331c 100644
    exec $prog @_sysconfdir_@/xdg/xfce4/xinitrc $CLIENTRC $SERVERRC
  fi
 diff --git a/scripts/xinitrc.in b/scripts/xinitrc.in
-index 8c4c779..7c8b2b4 100644
+index ff044ed..2d7040c 100644
 --- a/scripts/xinitrc.in
 +++ b/scripts/xinitrc.in
-@@ -63,7 +63,7 @@ export GLADE_MODULE_PATH
+@@ -54,7 +54,7 @@ fi
  XRESOURCES=""
  
  # Has to go prior to merging Xft.xrdb, as its the "Defaults" file
@@ -24,6 +24,3 @@ index 8c4c779..7c8b2b4 100644
  test -r $HOME/.Xdefaults && XRESOURCES="$XRESOURCES $HOME/.Xdefaults"
  
  BASEDIR=$XDG_CONFIG_HOME/xfce4
--- 
-1.9.1
-
